@@ -22,7 +22,6 @@ def cost_function(X): # 0.25 Marks
 def initialise(length): # 0.25 Marks
     # your code goes here
     return None
-    
 
 
 # Evaluates the position vector based on the input func
@@ -31,7 +30,6 @@ def initialise(length): # 0.25 Marks
 def assess(position, best_position, best_cost, func): # 0.25 Marks
     # Your code goes here
     return None
-    
 
 
 # Updates velocity in-place by the given formula for each element:
@@ -41,7 +39,6 @@ def assess(position, best_position, best_cost, func): # 0.25 Marks
 def velocity_update(w, c1, c2, velocity, position, best_position, best_group_position): # 0.5 Marks
     # Code goes here
     return None
-    
 
 
 # Input - position, velocity, limits(list of two elements - [min, max])
@@ -52,7 +49,6 @@ def velocity_update(w, c1, c2, velocity, position, best_position, best_group_pos
 def position_update(position, velocity, limits): # 0.5 Marks
     # Code goes here
     return None
-    
 
 
 # swarm is a list of particles each of which is a list containing current_position, current_velocity, best_position and best_cost
