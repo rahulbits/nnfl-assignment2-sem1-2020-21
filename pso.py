@@ -11,6 +11,7 @@ import random
 # Return the total sum of squares of even-indexed elements and inverse squares of odd-indexed elements
 def cost_function(X): # 0.25 Marks
     # Your code goes here
+    return None
     
 
 
@@ -20,6 +21,7 @@ def cost_function(X): # 0.25 Marks
 # best_position is an empty list and best cost is set to -1 initially
 def initialise(length): # 0.25 Marks
     # your code goes here
+    return None
     
 
 
@@ -28,6 +30,7 @@ def initialise(length): # 0.25 Marks
 # Returns the better cost 
 def assess(position, best_position, best_cost, func): # 0.25 Marks
     # Your code goes here
+    return None
     
 
 
@@ -37,6 +40,7 @@ def assess(position, best_position, best_cost, func): # 0.25 Marks
 # No return value
 def velocity_update(w, c1, c2, velocity, position, best_position, best_group_position): # 0.5 Marks
     # Code goes here
+    return None
     
 
 
@@ -47,6 +51,7 @@ def velocity_update(w, c1, c2, velocity, position, best_position, best_group_pos
 # No return value
 def position_update(position, velocity, limits): # 0.5 Marks
     # Code goes here
+    return None
     
 
 
@@ -58,3 +63,4 @@ def position_update(position, velocity, limits): # 0.5 Marks
 # Return the best position and cost for the group
 def optimise(vector_length, swarm_size, w, c1, c2, limits, max_iterations, initial_best_group_position=[], initial_best_group_cost=-1): # 1.25 Marks
     # Your Code goes here
+    return None
